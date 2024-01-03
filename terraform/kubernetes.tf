@@ -1,7 +1,7 @@
 resource "digitalocean_kubernetes_cluster" "kubernetes_cluster" {
   name    = "diccikube"
   region  = var.region
-  version = "1.22.8-do.1"
+  version = "1.28.2-do.0"
 
   tags = ["k8s"]
 
